@@ -1,5 +1,5 @@
 name: health_calculators
-description: "For body mass index and basal metabolic rate calculations"
+description: "For body mass index and basal metabolic rate calculations easily and accurately, Used in CalorieKit"
 version: 0.1.2
 repository: https://github.com/caloriekit/health_calculators_flutter
 

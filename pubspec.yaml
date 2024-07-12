@@ -1,7 +1,7 @@
 name: health_calculators
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "Calculate BMI and BMR"
+version: 0.1.0
+repository: https://github.com/caloriekit/health_calculators_flutter.git
 
 environment:
   sdk: '>=3.2.4 <4.0.0'

@@ -1,5 +1,6 @@
 import 'package:health_calculators/health_calculators.dart';
 
+/// Enum representing ethnicity.
 enum Ethnicity {
   white,
   black,
@@ -8,6 +9,7 @@ enum Ethnicity {
   other,
 }
 
+/// Calculates the Basal Metabolic Rate (BMR) of a person.
 abstract class BasalMetabolicRate {
   Future<double> calculateBMR({
     required double weight,
@@ -19,8 +21,10 @@ abstract class BasalMetabolicRate {
   });
 }
 
+/// A class that implements the BasalMetabolicRate abstract class.
+/// It calculates the Basal Metabolic Rate (BMR) of a person.
+/// It uses different formulas to calculate the BMR based on the input values.
 class BMRCalculator extends BasalMetabolicRate {
-
   @override
   Future<double> calculateBMR({
     required double weight,
@@ -110,5 +114,4 @@ class BMRCalculator extends BasalMetabolicRate {
       return 387 - 7.31 * age + 10.9 * weight + 660 * (height / 100);
     }
   }
-  
 }

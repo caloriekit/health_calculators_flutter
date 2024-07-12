@@ -1,7 +1,7 @@
 name: health_calculators
-description: "Calculate BMI and BMR"
-version: 0.1.0
-repository: https://github.com/caloriekit/health_calculators_flutter.git
+description: "For body mass index and basal metabolic rate calculations"
+version: 0.1.2
+repository: https://github.com/caloriekit/health_calculators_flutter
 
 environment:
   sdk: '>=3.2.4 <4.0.0'
